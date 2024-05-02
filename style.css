@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: o;
 }
 
 .cabecalho {
@@ -10,17 +10,21 @@
     align-items: center;
     padding: 10px 0;
 } 
+
 .cabecalho-imagem {
     width: 15%;
 }
+
 .cabecalho-lista-item {
     display: inline-block;
     margin: 0 18px;
     font-size: 18px;
 }
+
 .curiosidade-imagem {
     width: 25%;
 }
+
 .curiosidades {
     background-color: rgb(250, 253, 162);
     display: flex;
@@ -28,9 +32,38 @@
     align-items: center;
     padding: 26px 0;
 }
+
 .curiosidades-div-conteudo{
     width: 35%;
 }
+
 .curiosidades-titulo{
     padding: 24px 0;
+}
+
+.calopsita-imagem{
+    width: 120px;
+}
+
+.calopsita-div{
+    text-align: center;
+}
+
+.mutacoes-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.calopsita-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 90px;
 }
