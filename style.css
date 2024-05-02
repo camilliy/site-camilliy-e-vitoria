@@ -4,7 +4,7 @@
 }
 
 .cabecalho {
-    background-color: rgb(250, 252, 187);
+    background-color: rgb(250, 253, 162);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,4 +17,20 @@
     display: inline-block;
     margin: 0 18px;
     font-size: 18px;
+}
+.curiosidade-imagem {
+    width: 25%;
+}
+.curiosidades {
+    background-color: rgb(250, 253, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 0;
+}
+.curiosidades-div-conteudo{
+    width: 35%;
+}
+.curiosidades-titulo{
+    padding: 24px 0;
 }
